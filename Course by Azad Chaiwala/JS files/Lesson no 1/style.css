@@ -54,9 +54,9 @@ a:hover{
 footer{
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #003e5e;
     color: white;
-    position: fixed;
     width: 100%;
     bottom: 0;
+
 }
