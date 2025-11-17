@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>How to Link Js to your Html file.</h1>
+        <p>There are three ways.</p>
+    </header>
+    <ul>
+        <li>Inline js</li>
+        <li>Link with file.</li>
+        <li>By script tag.</li>
+    </ul>
+
+    <h2>Inline js</h2>
+    <p>The js that write in html.</p>
+    <p>Example:</p>
+    <p>
+        &lt;button onclick="alert('Hello World!')"&gt;Click Me&lt;/button&gt;
+    </p>
+
+    <button onclick="alert('Hello World!')">Click Me</button>
+    
+    <h2>By script tag</h2>
+    <p>The js that write inside script tag in html file.</p>
+    <p>Example:</p>
+    <p>
+        &lt;script&gt;alert('Hello World!')&lt;/script&gt;
+    </p>
+    <script>
+        // alert('Hello World!')   
+    </script>
+    <h2>Link with file</h2>
+    <p>The js that link with html file.</p>
+    <p>Example:</p>
+    <p>
+        &lt;script src="script.js"&gt;&lt;/script&gt;
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
