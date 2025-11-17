@@ -6,12 +6,12 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #cbffbe;
+    background-color: #bee2ff;
     color: #333;
 }
 
 header{
-    background-color: #002466;
+    background-color: #003066;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -26,8 +26,7 @@ li{
     font-size: 18px;
 }   
 h2{
-    background-color:  #4CAF50;
-    color: white;
+    color:  #1b79d0;
     margin: px 0 10px 20px;
     padding: 2px;
 }
@@ -36,7 +35,7 @@ p{
     line-height: 1.6;
 }
 button{
-    background-color: #017201;
+    background-color: #024a89;
     color: white;
     border: none;
     padding: 10px 15px;
