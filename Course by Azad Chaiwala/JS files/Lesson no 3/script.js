@@ -1,7 +1,7 @@
 // data types in javascript
 
 // 1. String
-let name = "Azad Chaiwala";
+let name = "Iqra haji";
 console.log("Data type of name:", typeof name); // Output: string   
 // 2. Number
 let age = 25;
