@@ -16,15 +16,7 @@ header{
     padding: 10px 0;
     text-align: center;
 }
-ul{
-    list-style-type: square;
-    margin: 20px;
-    padding: 0 20px;
-}
-li{
-    margin: 10px 0;
-    font-size: 18px;
-}   
+
 h2{
     color:  #1b79d0;
     margin: px 0 10px 20px;
@@ -38,9 +30,9 @@ button{
     background-color: #024a89;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 5px 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
     margin: 0 0 20px 20px;
 }
@@ -59,4 +51,39 @@ footer{
     width: 100%;
     bottom: 0;
 
+}
+
+table{
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+
+}
+
+table th{
+    background-color: #1b79d0;
+    color: white;
+    padding: 10px;
+}
+
+table td{
+    border: 1px solid #003c57;
+    padding: 8px;
+    text-align: left;
+}
+
+table tr:nth-child(odd){
+    background-color: #93d0fe;
+}
+
+table tr:nth-child(even){
+    background-color: #d6eaff;
+}
+
+.hero{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center; 
 }
