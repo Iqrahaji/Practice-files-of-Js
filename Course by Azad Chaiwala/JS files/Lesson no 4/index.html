@@ -21,43 +21,98 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Array</td>
-                    <td>An array is a special variable, which can hold more than one value at a time.</td>
+                    <td><h2>Array</h2></td>
+                    <td><h4>An array is a special variable, which can hold more than one value at a time.</h4>
+                        <br><br><br>
+                        => if we want to change the value of an array
+                        <br><br>
+                        => if we want to add a new value to an array
+                        <br><br>
+                        => if we want to remove the last value from an array
+                        <br><br>
+                        => if we want to remove the first value from an array
+                        <br><br>
+                        => if we want to add a new value to the beginning of an array
+                        <br><br>
+                        => if we want to find the length of an array
+                    </td>
                     <td>
 
                         let fruits =
                         <br>
-                         ["Apple", "Banana", "Mango"];
+                        ["Apple", "Banana", "Mango"];
                         <br>
-                        // index number: [0] , [1] , [2]
+                        => index number: [0] , [1] , [2]
                         <br>
-                        console.log(fruits[1]); // Output: Banana
+                        console.log(fruits[1]); => Output: Banana
+                        <br> <br>
+                        fruits[1] = "Orange";
+                        console.log(fruits); => Output: ["Apple", "Orange", "Mango"]
+                        <br>
+                        <br>
+
+                        fruits.push("Pineapple");
+                        console.log(fruits); => Output: ["Apple", "Orange", "Mango", "Pineapple"]
+                        <br>
+                        <br>
+
+                        fruits.pop();
+                        console.log(fruits); => Output: ["Apple", "Orange", "Mango"]
+                        <br>
+                        <br>
+
+                        fruits.shift();
+                        console.log(fruits); => Output: ["Orange", "Mango"]
+                        <br>
+                        <br>
+
+                        fruits.unshift("Strawberry");
+                        console.log(fruits); => Output: ["Strawberry", "Orange", "Mango"]
+                        <br>
+                        <br>
+                        console.log(fruits.length); => Output: 4
                     </td>
                 </tr>
                 <tr>
-                    <td>Object</td>
-                    <td>An object is a collection of properties, and a property is an association between a name (or
-                        key) and a value.
-                    
+                    <td><h2>Object</h2></td>
+                    <td><h4>An object is a collection of properties, and a property is an association between a name (or
+                        key) and a value.</h4>
+                        <br><br><br><br>
+                        //changing the age property
+<br><br>
+                        //adding a new property to the object
+<br><br>
+                        //removing a property from the object
                     </td>
                     <td>
 
                         let person = {
-                            <br>
+                        <br>
                         firstName: "John",
                         <br>
                         lastName: "Doe",
                         <br>
-                        age: 30
+                        age: 40
                         <br>
                         };
                         <br>
-                        console.log(person.firstName); // Output: John
-                        
+                        console.log(person.firstName); => Output: John
+<br><br>
+                        person.age = 41;
+                        console.log(person.age); // Output: 41
+<br><br>
+
+                        person.city = "New York";
+                        console.log(person.city); // Output: New York
+<br><br>
+
+                        delete person.lastName;
+                        console.log(person); // Output: {firstName: "John", age: 41, city: "New York"}
+
                     </td>
                 </tr>
             </tbody>
-            
+
         </table>
     </section>
     <footer>
