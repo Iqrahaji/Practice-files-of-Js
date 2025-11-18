@@ -12,18 +12,23 @@
     <header>
         <h1>Array and Objects</h1>
     </header>
+
     <section class="hero">
         <table>
             <thead>
-                <th>Data type</th>
-                <th>Description</th>
-                <th>Example</th>
+                <tr>
+                    <th>Data type</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
             </thead>
+
             <tbody>
                 <tr>
                     <td>
                         <h2>Array</h2>
                     </td>
+
                     <td>
                         <h4>An array is a special variable, which can hold more than one value at a time.</h4>
                         <p>1=> if we want to change the value of an array</p>
@@ -33,14 +38,16 @@
                         <p>5=> if we want to add a new value to the beginning of an array</p>
                         <p>6=> if we want to find the length of an array</p>
                     </td>
-                    <td>
 
+                    <td>
                         <p>let fruits =</p>
                         <p>["Apple", "Banana", "Mango"];</p>
                         <p>=> index number: [0] , [1] , [2]</p>
                         <p>console.log(fruits[1]); => Output: Banana</p>
+
                         <p>1=> fruits[1] = "Orange";</p>
                         <p>console.log(fruits); => Output: ["Apple", "Orange", "Mango"]</p>
+
                         <p>2=> fruits.push("Pineapple");</p>
                         <p>console.log(fruits); => Output: ["Apple", "Orange", "Mango", "Pineapple"]</p>
 
@@ -54,43 +61,47 @@
                         <p>console.log(fruits); => Output: ["Strawberry", "Orange", "Mango"]</p>
 
                         <p>6=> console.log(fruits.length); => Output: 4</p>
-
-
                     </td>
                 </tr>
+
                 <tr>
                     <td>
                         <h2>Object</h2>
                     </td>
+
                     <td>
-                        <h4>An object is a collection of properties, and a property is an association between a name (or
-                            key) and a value.</h4>
+                        <h4>An object is a collection of properties, and a property is an association between a name (or key) and a value.</h4>
                         <p>1=> changing the age property</p>
                         <p>2=> adding a new property to the object</p>
                         <p>3=> removing a property from the object</p>
                     </td>
+
                     <td>
                         <p>let person = {</p>
                         <p>firstName: "John",</p>
                         <p>lastName: "Doe",</p>
                         <p>age: 40</p>
                         <p>};</p>
+
                         <p>console.log(person.firstName); => Output: John</p>
+
                         <p>1=> person.age = 41;</p>
                         <p>console.log(person.age); // Output: 41</p>
+
                         <p>2=> person.city = "New York";</p>
                         <p>console.log(person.city); // Output: New York</p>
+
                         <p>3=> delete person.lastName;</p>
                         <p>console.log(person); // Output: {firstName: "John", age: 41, city: "New York"}</p>
                     </td>
                 </tr>
             </tbody>
-
         </table>
     </section>
+
     <footer>
         <p>created by &copy; Iqra haji | All rights reserved.</p>
     </footer>
-</body>
 
+</body>
 </html>
