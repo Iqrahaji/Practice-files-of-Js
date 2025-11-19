@@ -37,6 +37,12 @@
                         <p>4=> if we want to remove the first value from an array</p>
                         <p>5=> if we want to add a new value to the beginning of an array</p>
                         <p>6=> if we want to find the length of an array</p>
+                        <p>7=> if we want to sort an array</p>
+                        <p>8=> if we want to reverse an array</p>
+                        <p>9=> if we want to find the index of a value in an array</p>
+                        <p>10=> if we want to check if a value is in an array</p>
+                        <p>11=> if we want to join two arrays</p>
+
                     </td>
 
                     <td>
@@ -61,6 +67,15 @@
                         <p>console.log(fruits); => Output: ["Strawberry", "Orange", "Mango"]</p>
 
                         <p>6=> console.log(fruits.length); => Output: 4</p>
+                        <p>7=> fruits.sort();</p>
+                        <p>console.log(fruits); => Output: ["Mango", "Orange", "Strawberry"]</p>
+                        <p>8=> fruits.reverse();</p>
+                        <p>console.log(fruits); => Output: ["Strawberry", "Orange", "Mango"]</p>
+                        <p>9=> console.log(fruits.indexOf("Mango")); => Output: 2</p>
+                        <p>10=> console.log(fruits.includes("Banana")); => Output: false</p>
+                        <p>11=> let tropicalFruits = ["Pineapple", "Papaya"];</p>
+                        <p>let allFruits = fruits.concat(tropicalFruits);</p>   
+
                     </td>
                 </tr>
 
@@ -74,6 +89,7 @@
                         <p>1=> changing the age property</p>
                         <p>2=> adding a new property to the object</p>
                         <p>3=> removing a property from the object</p>
+                        <p>4=> Parsing and stringifying the object.</p>
                     </td>
 
                     <td>
@@ -93,6 +109,10 @@
 
                         <p>3=> delete person.lastName;</p>
                         <p>console.log(person); // Output: {firstName: "John", age: 41, city: "New York"}</p>
+                        <p>4=> let personString = JSON.stringify(person);</p>
+                        <p>console.log(personString); // Output: "{"firstName":"John","age":41,"city":"New York"}"</p>
+                        <p>let personObj = JSON.parse(personString);</p>    
+                        <p>console.log(personObj); // Output: {firstName: "John", age: 41, city: "New York"}</p>
                     </td>
                 </tr>
             </tbody>
